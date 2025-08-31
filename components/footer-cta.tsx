@@ -42,8 +42,8 @@ const FooterCTA = () => {
                 <button className="hover:text-white transition-colors">Contact</button>
               </div>
               <div className="flex flex-col items-end space-x-2">
-                <p className="text-sm text-gray-400 m-0">© 2024 Anker. All rights reserved.</p>
-                <p className="text-sm text-gray-400">Created by Futurio.</p>
+                <p className="text-sm text-gray-400 m-0">© 2025 Anker. All rights reserved.</p>
+                <p className="text-sm text-gray-400">Created by PawLynx.</p>
               </div>
 
             </div>

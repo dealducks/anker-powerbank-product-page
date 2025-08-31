@@ -26,34 +26,19 @@ export const metadata: Metadata = {
   title: "Anker PowerCore III Elite 25600mAh (87W) - Fast Power, Wherever You Go",
   description:
       "25600mAh portable charger with 87W USB-C PD. Charge laptops, phones, and tablets simultaneously. Airline-friendly capacity with 24-month warranty.",
-  generator: "v0.app",
   keywords:
       "Anker, PowerCore, portable charger, power bank, USB-C PD, 87W, 25600mAh, laptop charging",
 
   // ❗ было type: "product" → меняем на поддерживаемое значение
   openGraph: {
     type: "website",
-    url: "/",
     title: "Anker PowerCore III Elite 25600mAh (87W)",
     description:
         "Fast power, wherever you go. 25600mAh capacity with 87W USB-C PD charging.",
-    images: [
-      {
-        url: "/img/hero1.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Anker PowerCore III Elite 25600mAh (87W) portable charger",
-      },
-    ],
   },
 
-  twitter: {
-    card: "summary_large_image",
-    title: "Anker PowerCore III Elite 25600mAh (87W)",
-    description:
-        "Fast power, wherever you go. 25600mAh capacity with 87W USB-C PD charging.",
-    images: ["/img/hero1.jpg"], // c metadataBase станет абсолютным
-  },
+  authors: [{ name: "PawLynx", url: "https://pawlynx.com" }],
+  creator: "PawLynx",
 
   // можно оставить строкой, но объект точнее
   robots: {
